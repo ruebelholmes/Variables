@@ -36,10 +36,6 @@ namespace Day1.App
 
             Console.WriteLine($"Some of the books I like are:{0}, {1} By Dean Koontz, as well as: {2}, {3} By John Grisham, also: {4}, {5} By David Baldacci.");
 
-
-
-
-
             Console.ReadLine();
         }
     }
