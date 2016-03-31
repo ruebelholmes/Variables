@@ -24,17 +24,22 @@ namespace Day1.App
 
             Console.WriteLine(todaysDate);
 
-            float cost = (5.45f);
+            float cost = 5.45f;
 
             Console.WriteLine($"I spent ${cost} on a cheeseburger.");
 
-            char here = ('X');
+            char here = 'X';
 
             Console.WriteLine($"{here} marks the spot.");
 
             string[] books = { "Odd Thomas Series ", "Icebound ", "The Firm ", "Gray Mountain", "Zero Day ", "The Escape" };
+            
+            Console.WriteLine($"Some of the books I like are:{books[0]} {books[1]} By Dean Koontz, as well as: {books[2]}, {books[3]} By John Grisham, also: {books[4]}, {books[5]} By David Baldacci.");
 
-            Console.WriteLine($"Some of the books I like are:{0}, {1} By Dean Koontz, as well as: {2}, {3} By John Grisham, also: {4}, {5} By David Baldacci.");
+            foreach (var b in books)
+            {
+                Console.WriteLine(b);
+            }
 
             Console.ReadLine();
         }
